@@ -14,7 +14,7 @@ namespace Freddy
 {
     public partial class Form1 : Form
     {
-        bool button1_apasat = false, sw=false;
+        bool button1_apasat = false, sw = false;
         PictureBox picturebox3 = new PictureBox();
         PictureBox picturebox4 = new PictureBox();
         Button button2 = new Button();
@@ -68,15 +68,15 @@ namespace Freddy
 
         private void button1_Click(object sender, EventArgs e)
         {
-            
-            if (textBox1.Text!="")
+
+            if (textBox1.Text != "")
             {
                 button1_apasat = true;
                 nume = textBox1.Text;
                 label1.Text = "   " + textBox1.Text + ", ce nume frumos! Îmi pare bine de cunoștință. Spune-mi te rog, ești fată sau băiat?";
                 if (!File.Exists("nume.txt"))
                     File.Create("nume.txt").Dispose();
-                using (StreamWriter writer=new StreamWriter("nume.txt"))
+                using (StreamWriter writer = new StreamWriter("nume.txt"))
                 {
                     writer.Write(textBox1.Text);
                     writer.Close();
@@ -104,19 +104,19 @@ namespace Freddy
         }
         private void pictureBox1_Click(object sender, EventArgs e)
         {
-            if (button1_apasat == true && sw==true)
+            if (button1_apasat == true && sw == true)
             {
                 sterge();
                 păcăleștelPeFreddyToolStripMenuItem.Enabled = true;
                 this.BackgroundImage = Properties.Resources.fundal;
-                picturebox3.Location = new Point(60,441);
-                picturebox3.Size = new System.Drawing.Size(128,121);
+                picturebox3.Location = new Point(60, 441);
+                picturebox3.Size = new System.Drawing.Size(128, 121);
                 picturebox3.SizeMode = PictureBoxSizeMode.StretchImage;
                 picturebox3.Image = Properties.Resources.Fredy4s;
                 picturebox3.BackColor = Color.Transparent;
                 Controls.Add(picturebox3);
-                picturebox4.Location = new Point(75,293);
-                picturebox4.Size = new System.Drawing.Size(361,227);
+                picturebox4.Location = new Point(75, 293);
+                picturebox4.Size = new System.Drawing.Size(361, 227);
                 picturebox4.SizeMode = PictureBoxSizeMode.StretchImage;
                 picturebox4.Image = Properties.Resources.bubble3;
                 picturebox4.BackColor = Color.Transparent;
@@ -127,11 +127,11 @@ namespace Freddy
                 label10.BackColor = Color.White;
                 label10.ForeColor = Color.Black;
                 label10.Font = new Font("Segoe Print", 8);
-                label10.Size = new System.Drawing.Size(228,77);
+                label10.Size = new System.Drawing.Size(228, 77);
                 Controls.Add(label10);
                 label10.BringToFront();
-                button2.Location = new Point(60,60);
-                button2.Size = new System.Drawing.Size(200,40);
+                button2.Location = new Point(60, 60);
+                button2.Size = new System.Drawing.Size(200, 40);
                 button2.BackColor = Color.White;
                 button2.Text = "Județele României";
                 button2.Font = new Font("Segoe Print", 8);
@@ -188,7 +188,7 @@ namespace Freddy
         }
         private void button4_Click(object sender, EventArgs e)
         {
-            Form2 Form2= new Form2();
+            Form2 Form2 = new Form2();
             Form2.Show();
         }
         private void button2_Click(object sender, EventArgs e)
@@ -200,7 +200,7 @@ namespace Freddy
         {
             Form7 Form7 = new Form7();
             Form7.Show();
-            
+
         }
         private void button6_Click(object sender, EventArgs e)
         {
@@ -235,12 +235,12 @@ namespace Freddy
                 rez3 = reader.ReadToEnd();
                 reader.Close();
             }
-            using (StreamReader reader=new StreamReader("nume.txt"))
+            using (StreamReader reader = new StreamReader("nume.txt"))
             {
                 label10.Text = "   " + reader.ReadToEnd() + ", haide să vedem câte jocuri putem juca astăzi împreună! Dacă le vei trece cu bine pe toate, vei primi o recompensă.";
                 reader.Close();
             }
-            if(Convert.ToInt32(rez1)!=-1&&Convert.ToInt32(rez2)!=-1&&Convert.ToInt32(rez3)!=-1)
+            if (Convert.ToInt32(rez1) != -1 && Convert.ToInt32(rez2) != -1 && Convert.ToInt32(rez3) != -1)
             {
                 button3.Visible = true;
                 button3.Enabled = true;
