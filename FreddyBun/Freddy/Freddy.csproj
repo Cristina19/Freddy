@@ -1,0 +1,575 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8F43FF1B-0E67-4F50-801A-C420E6273063}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Freddy</RootNamespace>
+    <AssemblyName>Freddy</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form10.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form10.Designer.cs">
+      <DependentUpon>Form10.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form11.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form11.Designer.cs">
+      <DependentUpon>Form11.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3.Designer.cs">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form5.Designer.cs">
+      <DependentUpon>Form5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form6.Designer.cs">
+      <DependentUpon>Form6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form7.Designer.cs">
+      <DependentUpon>Form7.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form8.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form8.Designer.cs">
+      <DependentUpon>Form8.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form9.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form9.Designer.cs">
+      <DependentUpon>Form9.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form10.resx">
+      <DependentUpon>Form10.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form11.resx">
+      <DependentUpon>Form11.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3.resx">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form5.resx">
+      <DependentUpon>Form5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form6.resx">
+      <DependentUpon>Form6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form7.resx">
+      <DependentUpon>Form7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form8.resx">
+      <DependentUpon>Form8.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form9.resx">
+      <DependentUpon>Form9.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Jumping-Fredy.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\7.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\8.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\8iAj9Xbia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\10.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\11.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\12.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\13.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\14.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\15.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\16.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\17.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\18.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\19.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\20.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\21.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\22.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\23.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\24.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\25.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\26.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\27.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\28.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\29.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\30.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\31.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\32.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\33.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\34.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\35.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\36.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\37.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\38.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\39.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\40.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Background3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\ballons-20clip-20art-dTrn54bT9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\bubble3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\check-157822_640.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Copy-of-Jumping-Fredy.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\delete1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\forbidden.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Fredy.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Fredy4s.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\harta_1s_.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\harta-orase.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\niXnB7a5T.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\paper_scroll.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\unnamed.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\volume3_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Web_party_confetti.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bubble3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8iAj9Xbia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\10.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\11.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\12.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\13.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\14.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\15.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\16.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\17.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\18.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\19.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\20.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\21.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\22.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\23.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\24.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\25.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\26.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\27.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\28.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\29.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\30.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\31.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\32.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\33.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\34.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\35.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\36.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\37.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\38.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\39.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\40.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Background3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ballons-20clip-20art-dTrn54bT9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\check-157822_640.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Copy-of-Jumping-Fredy.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\forbidden.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fredy.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fredy4s.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\harta_1s_.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\harta-orase.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\niXnB7a5T.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\paper_scroll.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\unnamed.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\volume3_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Web_party_confetti.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\corect.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sare.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rama.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\romania.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cronometru.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fundal.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\baloane.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\papirus.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\petrece.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fundal2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\adevaratulfinal.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CA.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\corect.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FA.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\final.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gandeste.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gresit.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\inceput.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TA.wav" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
