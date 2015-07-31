@@ -398,3 +398,21 @@ C:\Users\John\Desktop\proiect - Copy\Freddy\Freddy\obj\Debug\Freddy.csproj.Gener
 C:\Users\John\Desktop\proiect - Copy - Copy\Freddy\Freddy\bin\Debug\Freddy.exe.config
 C:\Users\John\Desktop\proiect - Copy - Copy\Freddy\Freddy\obj\Debug\Freddy.exe
 C:\Users\John\Desktop\proiect - Copy - Copy\Freddy\Freddy\obj\Debug\Freddy.pdb
+C:\Users\John\Desktop\Freddy\FreddyBun\Freddy\bin\Debug\Freddy.exe.config
+C:\Users\John\Desktop\Freddy\FreddyBun\Freddy\obj\Debug\Freddy.exe
+C:\Users\John\Desktop\Freddy\FreddyBun\Freddy\obj\Debug\Freddy.pdb
+C:\Users\John\Desktop\Freddy\FreddyBun\Freddy\bin\Debug\Freddy.exe
+C:\Users\John\Desktop\Freddy\FreddyBun\Freddy\bin\Debug\Freddy.pdb
+C:\Users\John\Desktop\Freddy\FreddyBun\Freddy\obj\Debug\Freddy.csprojResolveAssemblyReference.cache
+C:\Users\John\Desktop\Freddy\FreddyBun\Freddy\obj\Debug\Freddy.Form1.resources
+C:\Users\John\Desktop\Freddy\FreddyBun\Freddy\obj\Debug\Freddy.Form10.resources
+C:\Users\John\Desktop\Freddy\FreddyBun\Freddy\obj\Debug\Freddy.Form11.resources
+C:\Users\John\Desktop\Freddy\FreddyBun\Freddy\obj\Debug\Freddy.Form2.resources
+C:\Users\John\Desktop\Freddy\FreddyBun\Freddy\obj\Debug\Freddy.Form3.resources
+C:\Users\John\Desktop\Freddy\FreddyBun\Freddy\obj\Debug\Freddy.Form5.resources
+C:\Users\John\Desktop\Freddy\FreddyBun\Freddy\obj\Debug\Freddy.Form6.resources
+C:\Users\John\Desktop\Freddy\FreddyBun\Freddy\obj\Debug\Freddy.Form7.resources
+C:\Users\John\Desktop\Freddy\FreddyBun\Freddy\obj\Debug\Freddy.Form8.resources
+C:\Users\John\Desktop\Freddy\FreddyBun\Freddy\obj\Debug\Freddy.Form9.resources
+C:\Users\John\Desktop\Freddy\FreddyBun\Freddy\obj\Debug\Freddy.Properties.Resources.resources
+C:\Users\John\Desktop\Freddy\FreddyBun\Freddy\obj\Debug\Freddy.csproj.GenerateResource.Cache

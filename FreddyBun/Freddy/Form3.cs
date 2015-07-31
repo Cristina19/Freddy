@@ -16,7 +16,7 @@ namespace Freddy
         int intreb,inc=3,x=10,y=0,s=123,pr,nr=1,k,q=-1,f,w=0;
         Label[] l=new Label[42];
         Image Image = Properties.Resources.sare;
-        SoundPlayer player1=new SoundPlayer("CA.wav");
+        SoundPlayer player1=new SoundPlayer(Properties.Resources.CA);
         /*String[] judet ={"Alba", "Arad", "Argeș", "Bacău", "Bihor", "Bistrița-Năsăud", "Botoșani", 
                         "Brașov", "Brăila", "Buzău", "Caraș-Severin", "Călărași", "Cluj", "Constanța",
                         "Covasna", "Dâmbovița", "Dolj", "Galați", "Giurgiu", "Gorj", "Harghita", "Hunedoara", 
