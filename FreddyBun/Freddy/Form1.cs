@@ -29,6 +29,8 @@ namespace Freddy
         {
             if (!File.Exists("judete.txt"))
                 File.Create("judete.txt").Dispose();
+            if (!File.Exists("nume.txt"))
+                File.Create("nume.txt").Dispose();
             using (StreamWriter writer = new StreamWriter("judete.txt"))
             {
                 writer.Write("-1");
